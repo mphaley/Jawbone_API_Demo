@@ -1,6 +1,6 @@
 # Jawbone_API_Demo
 
-I put together a simple Calorie Counter application using the iOS SKD that simily autheticates with Jawbone's API and makes a few simple calls to retreive and display the data.  In my testing I also used calls to push data to Jawbone since I do not own an UP Tracker.  In my code you will find comments regarding the specfic API calls as well.
+I put together a simple Calorie Counter application using the iOS SDK that simily autheticates with Jawbone's API and makes a few simple calls to retreive and display the data.  In my testing I also used calls to push data to Jawbone since I do not own an UP Tracker.  In my code you will find comments regarding the specfic API calls as well.
 
 ViewController.m:
 
