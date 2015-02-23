@@ -14,6 +14,8 @@
 		4CBDE2771A9AEC4F00FD4640 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDE2761A9AEC4F00FD4640 /* Images.xcassets */; };
 		4CBDE27A1A9AEC4F00FD4640 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDE2781A9AEC4F00FD4640 /* LaunchScreen.xib */; };
 		4CBDE2861A9AEC4F00FD4640 /* Jawbone_API_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBDE2851A9AEC4F00FD4640 /* Jawbone_API_DemoTests.m */; };
+		4CBDE2C41A9AFB4F00FD4640 /* UPPlatformSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBDE2C31A9AFB4F00FD4640 /* UPPlatformSDK.framework */; };
+		4CF00C161A9B24A0002FECF5 /* DashDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF00C151A9B24A0002FECF5 /* DashDisplayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		4CBDE27F1A9AEC4F00FD4640 /* Jawbone_API_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jawbone_API_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBDE2841A9AEC4F00FD4640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CBDE2851A9AEC4F00FD4640 /* Jawbone_API_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jawbone_API_DemoTests.m; sourceTree = "<group>"; };
+		4CBDE2C31A9AFB4F00FD4640 /* UPPlatformSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UPPlatformSDK.framework; path = ../../UPPlatform_iOS_SDK/Examples/HelloUP/UPPlatformSDK.framework; sourceTree = "<group>"; };
+		4CF00C141A9B24A0002FECF5 /* DashDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashDisplayViewController.h; sourceTree = "<group>"; };
+		4CF00C151A9B24A0002FECF5 /* DashDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashDisplayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CBDE2C41A9AFB4F00FD4640 /* UPPlatformSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +92,8 @@
 				4CBDE2701A9AEC4F00FD4640 /* ViewController.h */,
 				4CBDE2711A9AEC4F00FD4640 /* ViewController.m */,
 				4CBDE2731A9AEC4F00FD4640 /* Main.storyboard */,
+				4CF00C141A9B24A0002FECF5 /* DashDisplayViewController.h */,
+				4CF00C151A9B24A0002FECF5 /* DashDisplayViewController.m */,
 				4CBDE2761A9AEC4F00FD4640 /* Images.xcassets */,
 				4CBDE2781A9AEC4F00FD4640 /* LaunchScreen.xib */,
 				4CBDE2691A9AEC4F00FD4640 /* Supporting Files */,
@@ -96,6 +104,7 @@
 		4CBDE2691A9AEC4F00FD4640 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CBDE2C31A9AFB4F00FD4640 /* UPPlatformSDK.framework */,
 				4CBDE26A1A9AEC4F00FD4640 /* Info.plist */,
 				4CBDE26B1A9AEC4F00FD4640 /* main.m */,
 			);
@@ -221,6 +230,7 @@
 			files = (
 				4CBDE2721A9AEC4F00FD4640 /* ViewController.m in Sources */,
 				4CBDE26F1A9AEC4F00FD4640 /* AppDelegate.m in Sources */,
+				4CF00C161A9B24A0002FECF5 /* DashDisplayViewController.m in Sources */,
 				4CBDE26C1A9AEC4F00FD4640 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,8 +355,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Michael/Projects/jawbone/UPPlatform_iOS_SDK/Examples/HelloUP,
+				);
 				INFOPLIST_FILE = Jawbone_API_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,8 +370,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Michael/Projects/jawbone/UPPlatform_iOS_SDK/Examples/HelloUP,
+				);
 				INFOPLIST_FILE = Jawbone_API_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -414,6 +434,7 @@
 				4CBDE28B1A9AEC4F00FD4640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CBDE28C1A9AEC4F00FD4640 /* Build configuration list for PBXNativeTarget "Jawbone_API_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +443,7 @@
 				4CBDE28E1A9AEC4F00FD4640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
