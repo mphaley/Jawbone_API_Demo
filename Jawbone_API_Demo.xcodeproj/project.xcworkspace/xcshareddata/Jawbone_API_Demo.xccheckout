@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FD2E764A-049A-45C0-8E91-2A15BB20AFB1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Jawbone_API_Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>61803B7626692B6767B1B38585DC595E4A6668BA</key>
+		<string>https://github.com/mphaley/Jawbone_API_Demo.git</string>
+		<key>DB106FC3AA6A601B55A6EA6307227989CC1A5E82</key>
+		<string>https://github.com/Jawbone/UPPlatform_iOS_SDK.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Jawbone_API_Demo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>61803B7626692B6767B1B38585DC595E4A6668BA</key>
+		<string>../..</string>
+		<key>DB106FC3AA6A601B55A6EA6307227989CC1A5E82</key>
+		<string>../../../UPPlatform_iOS_SDK</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mphaley/Jawbone_API_Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>61803B7626692B6767B1B38585DC595E4A6668BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>61803B7626692B6767B1B38585DC595E4A6668BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Jawbone_API_Demo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DB106FC3AA6A601B55A6EA6307227989CC1A5E82</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UPPlatform_iOS_SDK</string>
+		</dict>
+	</array>
+</dict>
+</plist>

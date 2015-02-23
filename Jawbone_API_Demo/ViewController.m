@@ -20,17 +20,9 @@
 {
     [super viewDidLoad];
 
-    // Give us a detailed network activity overview.
     [UPPlatform sharedPlatform].enableNetworkLogging = YES;
     
-    // Check if we have an outstanding session.
     
-    /*
-    [[UPPlatform sharedPlatform] validateSessionWithCompletion:^(UPSession *session, NSError *error) {
-        if (session != nil) {
-            [self performSegueWithIdentifier:@"UserLogged" sender:nil];
-        }
-    }]; */
 }
 
 - (void)didReceiveMemoryWarning {
@@ -52,13 +44,7 @@
                                                    if (session != nil) {
                                                        
                                                        [self performSegueWithIdentifier:@"UserLogged" sender:nil];
-                                                   }/* else {
-                                                       [[[UIAlertView alloc] initWithTitle:@"Error"
-                                                                                   message:error.localizedDescription
-                                                                                  delegate:nil
-                                                                         cancelButtonTitle:@"OK"
-                                                                         otherButtonTitles:nil] show];
-                                                   }*/
+                                                   }
                                                }];
    
 }
